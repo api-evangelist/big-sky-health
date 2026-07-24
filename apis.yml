@@ -1,24 +1,71 @@
 aid: big-sky-health
 name: Big Sky Health
-description: 'Big Sky Health is a company surfaced as a portfolio company of trinity-ventures and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Big Sky Health (now operating as Zero Longevity Science, Inc.) is a Bozeman,
+  Montana consumer digital-health company best known for Zero, one of the most popular
+  intermittent-fasting and nutrition-tracking mobile apps. Zero combines a fasting timer,
+  photo-based meal and protein logging, a personalized Protein Score, and water-intake
+  tracking to help users manage body composition and adopt science-backed longevity
+  practices. The company runs as a direct-to-consumer mobile subscription business
+  (Zero Plus) on iOS and Android. As of this profile it publishes no public developer
+  API, SDK, MCP server, or developer program. It was added to the API Evangelist network
+  as a Trinity Ventures portfolio company awaiting enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/big-sky-health/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://zerolongevity.com/framer-assets/images/LahjgauHESHlfOouYREz3bAGkME.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - trinity-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-also-known-as: Zero Longevity Science, Inc.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
 - Healthcare
+- Digital Health
+- Fasting
+- Nutrition
+- Longevity
+- Consumer App
+- Mobile
 apis: []
+common:
+- type: DomainSecurity
+  url: security/big-sky-health-domain-security.yml
+- type: Website
+  url: https://zerolongevity.com
+- type: Blog
+  url: https://zerolongevity.com/blog/
+- type: Support
+  url: https://zerofasting.zendesk.com/hc/en-us
+- type: PrivacyPolicy
+  url: https://zerolongevity.com/privacy-policy
+- type: TermsOfService
+  url: https://zerolongevity.com/terms-of-use
+- type: Pricing
+  url: https://zerolongevity.com/plus
+- type: SignUp
+  url: https://apps.apple.com/us/app/zero-fasting-food-tracker/id1168348542
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
