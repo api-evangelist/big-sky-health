@@ -10,6 +10,17 @@ description: 'Big Sky Health (now operating as Zero Longevity Science, Inc.) is 
   API, SDK, MCP server, or developer program. It was added to the API Evangelist network
   as a Trinity Ventures portfolio company awaiting enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/big-sky-health/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
